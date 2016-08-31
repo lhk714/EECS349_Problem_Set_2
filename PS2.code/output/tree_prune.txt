@@ -1,0 +1,115 @@
+numinjured < 2.0
+|   oppnuminjured < 1.0
+|   |   winpercent < 0.802881935831
+|   |   |   numinjured < 0.0
+|   |   |   |   --> 0
+|   |   |   numinjured >= 0.0
+|   |   |   |   opprundifferential < 94.0
+|   |   |   |   |   oppwinningpercent < 0.25883265915
+|   |   |   |   |   |   winpercent < 0.610572681992
+|   |   |   |   |   |   |   --> 1
+|   |   |   |   |   |   winpercent >= 0.610572681992
+|   |   |   |   |   |   |   --> 0
+|   |   |   |   |   oppwinningpercent >= 0.25883265915
+|   |   |   |   |   |   --> 1
+|   |   |   |   opprundifferential >= 94.0
+|   |   |   |   |   --> 0
+|   |   winpercent >= 0.802881935831
+|   |   |   --> 0
+|   oppnuminjured >= 1.0
+|   |   opprundifferential < 9.0
+|   |   |   --> 1
+|   |   opprundifferential >= 9.0
+|   |   |   oppwinningpercent < 0.0110579633989
+|   |   |   |   --> 1
+|   |   |   oppwinningpercent >= 0.0110579633989
+|   |   |   |   rundifferential < 0.0
+|   |   |   |   |   --> 1
+|   |   |   |   rundifferential >= 0.0
+|   |   |   |   |   oppdayssincegame < 6.0
+|   |   |   |   |   |   rundifferential < 106.0
+|   |   |   |   |   |   |   opprundifferential < 18.0
+|   |   |   |   |   |   |   |   --> 1
+|   |   |   |   |   |   |   opprundifferential >= 18.0
+|   |   |   |   |   |   |   |   oppnuminjured < 2.0
+|   |   |   |   |   |   |   |   |   numinjured < 1.0
+|   |   |   |   |   |   |   |   |   |   --> 0
+|   |   |   |   |   |   |   |   |   numinjured >= 1.0
+|   |   |   |   |   |   |   |   |   |   oppwinningpercent < 0.339279429888
+|   |   |   |   |   |   |   |   |   |   |   winpercent < 0.323583406808
+|   |   |   |   |   |   |   |   |   |   |   |   --> 1
+|   |   |   |   |   |   |   |   |   |   |   winpercent >= 0.323583406808
+|   |   |   |   |   |   |   |   |   |   |   |   opprundifferential < 24.0
+|   |   |   |   |   |   |   |   |   |   |   |   |   --> 1
+|   |   |   |   |   |   |   |   |   |   |   |   opprundifferential >= 24.0
+|   |   |   |   |   |   |   |   |   |   |   |   |   --> 0
+|   |   |   |   |   |   |   |   |   |   oppwinningpercent >= 0.339279429888
+|   |   |   |   |   |   |   |   |   |   |   --> 1
+|   |   |   |   |   |   |   |   oppnuminjured >= 2.0
+|   |   |   |   |   |   |   |   |   opprundifferential < 24.0
+|   |   |   |   |   |   |   |   |   |   rundifferential < 50.0
+|   |   |   |   |   |   |   |   |   |   |   --> 0
+|   |   |   |   |   |   |   |   |   |   rundifferential >= 50.0
+|   |   |   |   |   |   |   |   |   |   |   --> 1
+|   |   |   |   |   |   |   |   |   opprundifferential >= 24.0
+|   |   |   |   |   |   |   |   |   |   --> 0
+|   |   |   |   |   |   rundifferential >= 106.0
+|   |   |   |   |   |   |   --> 1
+|   |   |   |   |   oppdayssincegame >= 6.0
+|   |   |   |   |   |   --> 1
+numinjured >= 2.0
+|   oppnuminjured < 4.0
+|   |   rundifferential < -2.0
+|   |   |   --> 0
+|   |   rundifferential >= -2.0
+|   |   |   winpercent < 1.18242617987
+|   |   |   |   opprundifferential < 114.0
+|   |   |   |   |   oppwinningpercent < 0.19409750772
+|   |   |   |   |   |   oppwinningpercent < 0.00518594315722
+|   |   |   |   |   |   |   --> 1
+|   |   |   |   |   |   oppwinningpercent >= 0.00518594315722
+|   |   |   |   |   |   |   winpercent < 0.401499104962
+|   |   |   |   |   |   |   |   oppwinningpercent < 0.135174190682
+|   |   |   |   |   |   |   |   |   --> 0
+|   |   |   |   |   |   |   |   oppwinningpercent >= 0.135174190682
+|   |   |   |   |   |   |   |   |   --> 1
+|   |   |   |   |   |   |   winpercent >= 0.401499104962
+|   |   |   |   |   |   |   |   --> 0
+|   |   |   |   |   oppwinningpercent >= 0.19409750772
+|   |   |   |   |   |   oppnuminjured < 3.0
+|   |   |   |   |   |   |   oppwinningpercent < 0.270601188829
+|   |   |   |   |   |   |   |   winpercent < 0.664244899552
+|   |   |   |   |   |   |   |   |   --> 1
+|   |   |   |   |   |   |   |   winpercent >= 0.664244899552
+|   |   |   |   |   |   |   |   |   --> 0
+|   |   |   |   |   |   |   oppwinningpercent >= 0.270601188829
+|   |   |   |   |   |   |   |   rundifferential < 1.0
+|   |   |   |   |   |   |   |   |   winpercent < 0.646027053452
+|   |   |   |   |   |   |   |   |   |   --> 0
+|   |   |   |   |   |   |   |   |   winpercent >= 0.646027053452
+|   |   |   |   |   |   |   |   |   |   --> 1
+|   |   |   |   |   |   |   |   rundifferential >= 1.0
+|   |   |   |   |   |   |   |   |   winpercent < 0.79669266578
+|   |   |   |   |   |   |   |   |   |   --> 1
+|   |   |   |   |   |   |   |   |   winpercent >= 0.79669266578
+|   |   |   |   |   |   |   |   |   |   oppwinningpercent < 0.31531885583
+|   |   |   |   |   |   |   |   |   |   |   --> 0
+|   |   |   |   |   |   |   |   |   |   oppwinningpercent >= 0.31531885583
+|   |   |   |   |   |   |   |   |   |   |   rundifferential < 22.0
+|   |   |   |   |   |   |   |   |   |   |   |   --> 0
+|   |   |   |   |   |   |   |   |   |   |   rundifferential >= 22.0
+|   |   |   |   |   |   |   |   |   |   |   |   --> 1
+|   |   |   |   |   |   oppnuminjured >= 3.0
+|   |   |   |   |   |   |   numinjured < 3.0
+|   |   |   |   |   |   |   |   opprundifferential < 26.0
+|   |   |   |   |   |   |   |   |   --> 1
+|   |   |   |   |   |   |   |   opprundifferential >= 26.0
+|   |   |   |   |   |   |   |   |   --> 0
+|   |   |   |   |   |   |   numinjured >= 3.0
+|   |   |   |   |   |   |   |   --> 1
+|   |   |   |   opprundifferential >= 114.0
+|   |   |   |   |   --> 0
+|   |   |   winpercent >= 1.18242617987
+|   |   |   |   --> 0
+|   oppnuminjured >= 4.0
+|   |   --> 0
